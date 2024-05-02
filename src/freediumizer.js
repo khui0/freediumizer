@@ -10,12 +10,12 @@ function attemptReplacement() {
   const IS_MEDIUM =
     document
       .querySelector(`head>meta[property="og:site_name"]`)
-      .getAttribute("content") === "Medium";
+      ?.getAttribute("content") === "Medium";
 
   const IS_ARTICLE =
     document
       .querySelector(`head>meta[property="og:type"]`)
-      .getAttribute("content") === "article";
+      ?.getAttribute("content") === "article";
 
   const IS_MEMBER_ONLY = Boolean(
     document.querySelector(`button[aria-label="Member-only story"]`)
