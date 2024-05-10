@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Freediumizer",
-  "version": "1.0.1",
+  "version": "1.0.2",
 
   "description": "Automatically redirects member-only stories to Freedium.",
 
