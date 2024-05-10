@@ -18,7 +18,7 @@ function attemptReplacement() {
       ?.getAttribute("content") === "article";
 
   const IS_MEMBER_ONLY = Boolean(
-    document.querySelector(`button[aria-label="Member-only story"]`)
+    document.querySelector(`article[class="meteredContent"]`)
   );
 
   if (IS_MEDIUM && IS_ARTICLE && IS_MEMBER_ONLY) {
